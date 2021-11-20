@@ -16,9 +16,14 @@
     <div class="subtitle">Leitor Pulseira</div>
     <div class="container">
         <div class="imagem"><object id="svg" type"image/svg+xml" data="{{aluno}}">Seu navegador não suporta imagem svg</object></div>
-        <div class="tag">TAG</div>
-        <div class="aluno">Aluno</div>
-        <div class="temperatura">Temperatura</div>
+        <div class="tag">TAG:{{cartao}}</div>
+        <div class="aluno">Aluno: {{nome}}</div>
+        <div class="temperatura">Temperatura: {{temperatura}} <sup>o</sup>C</div>
     </div>
+    <script>
+        setTimeout(function(){
+            window.location.href = '{{redirect_url}}';
+        }, 4000);
+    </script>
 </body>
 </html>
