@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url('/static/images/fundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -10,9 +13,17 @@ body {
     max-width: 500px;
     height: 250px;
     border-radius: 15px;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgb(22, 19, 87) 0%, rgb(22, 22, 83) 23%, rgba(0,212,255,1) 100%);
+    /*background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgb(22, 19, 87) 0%, rgb(22, 22, 83) 23%, rgba(0,212,255,1) 100%);*/
     color: antiquewhite;
+}
+
+.normal {
+    background: rgba(0, 255, 0, 0.404);
+}
+
+.nonormal {
+    background: rgba(255, 51, 0, 0.616);
 }
 
 .subtitle {
